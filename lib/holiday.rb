@@ -54,8 +54,7 @@ def all_supplies_in_holidays(holiday_hash)
         puts "  #{holiday.to_s.split('_').collect(&:capitalize).join(" ")}: #{supplies.join(", ")}"
       end
   end
-   # so .split  = s to a and .join a to s.    i have an array, im making a string. right
-   #
+   # .split  = s to a and .join a to s.   
 end
   # iterate through holiday_hash and print items such that your readout resembles:
   # Winter:
